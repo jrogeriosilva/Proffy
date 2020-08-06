@@ -5,7 +5,7 @@ import './styles.css';
 
 function TeacherList() {
   return (
-    <div id="page-teacher-list">
+    <div id="page-teacher-list" className="container">
       <PageHeader title="Estes são os proffys disponíveis.">
         <form id="search-teachers">
           <div className="input-block">
@@ -22,7 +22,6 @@ function TeacherList() {
             <label htmlFor="time">Hora</label>
             <input type="text" id="time" />
           </div>
-          
         </form>
       </PageHeader>
     </div> 
