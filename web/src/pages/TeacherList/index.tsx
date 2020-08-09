@@ -36,29 +36,28 @@ function TeacherList() {
             <div>
               <strong>José Rogério</strong>
               <span>Informática</span>
-              <p>
-                Front-End Developer! I am currently learning Typescript,
-                ES6+,NodeJs, ReactJs and ReactNativeFront-End Developer! I am
-                currently learning Typescript, ES6+,NodeJs, ReactJs and
-                ReactNative
-                <br />
-                Typescript, ES6+,NFront-End Developer! I am currently learning
-                Typescript, ES6+,NodeJs, ReactJs and ReactNativeFront-End
-                Developer! I am currently learning Typescript, ES6+,NodeJs,
-                ReactJs and ReactNative
-              </p>
-              <footer>
-                <p>
-                  Preço/hora
-                  <strong>R$ 60,00</strong>
-                </p>
-                <button type="button">
-                  <img src={whatsappIcon} alt="Whatsapp" />
-                  Entrar em contato
-                </button>
-              </footer>
             </div>
           </header>
+          <p>
+            Front-End Developer! I am currently learning Typescript,
+            ES6+,NodeJs, ReactJs and ReactNativeFront-End Developer! I am
+            currently learning Typescript, ES6+,NodeJs, ReactJs and ReactNative
+            <br />
+            Typescript, ES6+,NFront-End Developer! I am currently learning
+            Typescript, ES6+,NodeJs, ReactJs and ReactNativeFront-End Developer!
+            I am currently learning Typescript, ES6+,NodeJs, ReactJs and
+            ReactNative
+          </p>
+          <footer>
+            <p>
+              Preço/hora
+              <strong>R$ 60,00</strong>
+            </p>
+            <button type="button">
+              <img src={whatsappIcon} alt="Whatsapp" />
+              Entrar em contato
+            </button>
+          </footer>
         </article>
       </main>
     </div>
