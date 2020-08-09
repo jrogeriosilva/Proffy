@@ -39,14 +39,8 @@ function TeacherList() {
             </div>
           </header>
           <p>
-            Front-End Developer! I am currently learning Typescript,
-            ES6+,NodeJs, ReactJs and ReactNativeFront-End Developer! I am
-            currently learning Typescript, ES6+,NodeJs, ReactJs and ReactNative
-            <br />
-            Typescript, ES6+,NFront-End Developer! I am currently learning
-            Typescript, ES6+,NodeJs, ReactJs and ReactNativeFront-End Developer!
-            I am currently learning Typescript, ES6+,NodeJs, ReactJs and
-            ReactNative
+            I love learn about Technology, and I'm currently working hard on
+            learn Typescript, Javascript ES6+,NodeJs, ReactJs and React Native.
           </p>
           <footer>
             <p>
