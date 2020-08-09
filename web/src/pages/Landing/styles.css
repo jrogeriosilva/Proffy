@@ -30,7 +30,7 @@
   margin-top: 0.8rem;
 }
 
- .buttons-container {
+.buttons-container {
   display: flex;
   justify-content: center;
   margin: 3.2rem 0;
@@ -41,8 +41,8 @@
   height: 10.4rem;
   border-radius: 0.8rem;
   margin-right: 1.6rem;
-  font: 700 2.0rem Archivo;
-  
+  font: 700 2rem Archivo;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,7 @@
   transition: background-color 0.2s;
 }
 
-.buttons-container a:first-child{
+.buttons-container a:first-child {
   margin-right: 1.6rem;
 }
 
@@ -62,11 +62,11 @@
 }
 
 .buttons-container a.study {
-  background: var(--color-primary-lighter)
+  background: var(--color-primary-lighter);
 }
 
 .buttons-container a.give-classes {
-  background: var(--color-secondary)
+  background: var(--color-secondary);
 }
 
 .buttons-container a.study:hover {
@@ -88,17 +88,16 @@
   margin-left: 0.8rem;
 }
 
-@media (min-width: 1100px){
-  #page-landing-content{
+@media (min-width: 1100px) {
+  #page-landing-content {
     max-width: 1100px;
 
     display: grid;
     grid-template-rows: 350px 1fr;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "logo hero hero"
-      "buttons buttons total"
-    ;
+      "buttons buttons total";
   }
 
   .logo-container {
@@ -108,7 +107,6 @@
     margin: 0;
   }
 
-
   .logo-container h2 {
     text-align: initial;
     font-size: 3.6rem;
@@ -117,7 +115,7 @@
   .logo-container img {
     height: 100%;
   }
- 
+
   .hero-image {
     grid-area: hero;
     justify-self: end;
@@ -133,9 +131,8 @@
   }
 
   .buttons-container a img {
-     margin-right: 2.4rem;
+    margin-right: 2.4rem;
   }
-
 
   .total-connections {
     grid-area: total;
