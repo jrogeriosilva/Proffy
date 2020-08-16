@@ -1,1 +1,2 @@
 server/src/database/database.sqlite
+server/.prettierignore
